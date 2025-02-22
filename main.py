@@ -4,7 +4,7 @@
 import pygame
 from constants import *
 from player import *
-from asteroids import *
+from asteroid import *
 from asteroidfield import *
 
 def main():
