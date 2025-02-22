@@ -32,6 +32,7 @@ def main():
         for asteroid in asteroids:
             if player.collisioncheck(asteroid):
                 print("Game Over!")
+                return
         screen.fill((0,0,0))
         for sprite in drawable:
             sprite.draw(screen)
